@@ -18,3 +18,13 @@ Feature: First Feature File
     Then verify the page title has iPhone
     And close the driver
 
+#  1. created a new step
+#  2. Run to generate missing step definition
+#  QUESTIONS:
+#  1. Does spelling important in FF and Step defs? YES
+#  2. Does order of steps in Feature file matters? YES
+#  Because tests are run from TOP to BUTTOM in the feature file
+#  3. Does order of step definitions on step definitions folder matters? NO
+#  Because the tests run based of the steps NOT BASED ON THE STEP DEFINITIONS
+
+
