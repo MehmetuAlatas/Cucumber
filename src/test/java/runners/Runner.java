@@ -1,13 +1,13 @@
 package runners;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "./src/test/resources/features",//path od features folder
-        glue = "stepdefinitions"//path of the step definitions folder
+        glue = "stepdefinitions",//path of the step definitions folder
+        tags = "@parameterization1",
+        dryRun = false
 )
 public class Runner {
 }
