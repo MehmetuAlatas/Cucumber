@@ -1,4 +1,4 @@
-@scenario_outline_1
+@scenario_outline_1 @test1
 Feature: day02_US12301_scenario_outline_1
   Background: opening_google_page
     Given user is on the google page

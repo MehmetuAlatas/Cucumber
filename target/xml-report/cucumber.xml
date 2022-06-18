@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="119.671">
-    <testcase classname="FE35678_log_in_with_different_credentials" name="TC_login_with_admin" time="29.635">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="69.277">
+    <testcase classname="First Feature File" name="TC01_iPhone_Search" time="17.613">
         <system-out>
-            <![CDATA[Given user login with excel as "admin"......................................passed
-Then capture the screenshot.................................................passed
-Then close the application..................................................passed
+            <![CDATA[Given user is on the google page............................................passed
+When user search for iPhone on google.......................................passed
+Then verify the page title contains iPhone..................................passed
+And close the application...................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="FE35678_log_in_with_different_credentials" name="TC_login_with_admin_2" time="89.778">
+    <testcase classname="First Feature File" name="TC02_Teapot_Search" time="18.161">
         <system-out>
-            <![CDATA[Given user login with excel as "customer"...................................passed
-Then capture the screenshot.................................................passed
-Then close the application..................................................passed
+            <![CDATA[Given user is on the google page............................................passed
+When user search for TeaPot on google.......................................passed
+Then verify the page title contains TeaPot..................................passed
+And close the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="First Feature File" name="TC03_Flower_Search" time="16.739">
+        <system-out>
+            <![CDATA[Given user is on the google page............................................passed
+When user search for Flower on google.......................................passed
+Then verify the page title contains Flower..................................passed
+And close the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="First Feature File" name="TC04_BMW_Search" time="16.468">
+        <system-out>
+            <![CDATA[Given user is on the google page............................................passed
+When user search for BMW on google..........................................passed
+Then verify the page title contains BMW.....................................passed
+And close the application...................................................passed
 ]]>
         </system-out>
     </testcase>
