@@ -4,18 +4,15 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        monochrome = false,
         plugin = {
-                "pretty",
-                "html:target/default_cucumber_report.html",
+                "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedRerun.txt",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         features = "./src/test/resources/features",//path od features folder
         glue = {"stepdefinitions","hooks"},//path of the step definitions folder
-        tags = "@google_search",
+        tags = "@contact_us",
         dryRun = false
 )
 public class Runner {
