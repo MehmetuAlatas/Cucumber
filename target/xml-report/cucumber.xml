@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.998">
-    <testcase classname="contact_us" name="contact_us_form" time="21.738">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.134">
+    <testcase classname="database_read_feature" name="TC01_read_customer_ssn_information" time="2.944">
         <system-out>
-            <![CDATA[Given user launches the browser.............................................passed
-When user navigates to URL..................................................passed
-Then user verifies that home page is visible successfully...................passed
-When user clicks on Contact Us button.......................................passed
-And user verifies Get In Touch is visible...................................passed
-And user enters name, email, subject and message............................passed
-And user uploads file.......................................................passed
-And user  clicks Submit button..............................................passed
-And user clicks OK button...................................................passed
-Then user verifies success message Success Your details have been submitted successfully is visible.passed
-And user clicks on home button and verifies that landed home page successfully.passed
+            <![CDATA[Given user connects to the database.........................................passed
+And user gets the "*" from "tp_customer" table..............................passed
+And user reads all of the "first_name" column data..........................passed
 ]]>
         </system-out>
     </testcase>
